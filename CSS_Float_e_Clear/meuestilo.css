@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(217, 70, 247);
+}
+Header h1 {
+    background-color: rgb(245, 165, 178);
+    margin: 40px;
+    text-align: center;
+    color: rgb(175, 116, 7);
+}
+Section h2 {
+    background-color: rgb(245, 165, 178);
+     text-align: center;
+     color: rgb(175, 116, 7);
+}
+
+Nav a {
+    text-align: center;
+}
+
+Figure img {
+    width: 200px;
+    height: 200px;
+}
