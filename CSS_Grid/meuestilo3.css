@@ -1,18 +1,31 @@
 body {
-    background-color: rgb(217, 70, 247);
+    background-color: rgb(137, 167, 4);
 }
 Header h1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     background-color: rgb(245, 165, 178);
     margin: 40px;
     text-align: center;
     color: rgb(175, 116, 7);
 }
 Section h2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     background-color: rgb(245, 165, 178);
      text-align: center;
      color: rgb(175, 116, 7);
 }
 
 Nav a {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     text-align: center;
+}
+
+Figure img {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 200px;
+    height: 200px;
 }

@@ -1,7 +1,9 @@
 body {
-    background-color: rgb(217, 70, 247);
+    background-color: rgb(137, 167, 4);
 }
 Header h1 {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(245, 165, 178);
     margin: 40px;
     text-align: center;
@@ -13,6 +15,19 @@ Section h2 {
      color: rgb(175, 116, 7);
 }
 
+Section p {
+    display: flex;
+    flex-direction: column;
+}
+
+
 Nav a {
     text-align: center;
+}
+
+Figure img {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
 }
